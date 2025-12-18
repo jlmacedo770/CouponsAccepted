@@ -2,3 +2,5 @@
 The problem addressed in this report is identifying what driving scenarios and characteristics would lead to a higher acceptance rate for coupons that are aimed to entice drivers to visit one of five establishments: Coffee Houses, Bars, Carry Out, Cheap Restuarants, and More Expensive Restaurants.
 
 The data analyzed in ths exercised was a csv file comprised of 26 columns with one column representing a "Yes/No" on whether a driver would accept a coupon. The other columns were various driver demographics (age, gender, occupation), driving scenarios (time of day, passengers), and driver behavioral data (amount of times a driver frequented an establishment).
+
+Initial analysis of the data showed two main problems that needed to be addressed. First, a column "car" lists the type of car a person drives. Only 1.5% of survey respondents provided an answer rendering the column useless for analysis. Second, there were five behavioral columns that allowed respondents to populate how often they frequented one of the five establishments. There were a few missing values for each of the establishemnt types, so empty data was replaced with the "never" indication.
